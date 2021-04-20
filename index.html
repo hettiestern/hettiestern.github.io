@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ 	<meta charset="UTF-8">
+ 	<title>NOD</title>
+ 	<link rel="stylesheet" href="styles/about.css">
+</head>
+
+<body>
+<header id="top">
+	<img src="images/NOD_logo_smallest.png" alt="Nod logo: the text Nod with a double curved arrow mimicking the motion of a head nod" width=94 height=56>
+	<nav id="mainMenu" aria-label="main menu">
+		<ul>
+			<li><span id="currentPage"><span class="visuallyHidden">Current Page:</span>About</span></li>
+			<li><a href="bodyaffect.html" class="otherPages">Body & Affect</a></li>
+			<li><a href="accessibility.html" class="otherPages">Accessibility</a></li>
+			<li><a href="personal.html" class="otherPages">Personal</a></li>
+		</ul>
+	</nav>	
+</header>
+
+<h1>Nonverbal Online Dashboard (<span class="title">Nod</span>)</h1>
+
+<section id="intro" aria-label="Introduction">
+	<p>Welcome! Read the sections below to learn about <span class="title">Nod</span>.</p> 
+	<p>This is the <strong>demo</strong> site, which is populated with a fictitious course's analytics. Your learning analytics team will set up <em>your</em> <span class="title">Nod</span> and provide additional training on how to use and understand it.</p>
+	<p>Note: <span class="title">Nod</span>’s visuals are interactive and best viewed on a large desktop browser.</p>
+</section>
+
+<nav id="aboutMenu" aria-label="about Nod menu">
+	<ul role="tablist">
+		<li><button class="tablinks" role="tab" onclick="openTab(event, 'what')" id="defaultOpen">What</button></li>
+		<li><button class="tablinks" role="tab" onclick="openTab(event, 'why')">Why</button></li>
+		<li><button class="tablinks" role="tab" onclick="openTab(event, 'when')">When</button></li>
+		<li><button class="tablinks" role="tab" onclick="openTab(event, 'how')">How</button></li>
+		<li><button class="tablinks" role="tab" onclick="openTab(event, 'future')">Future</button></li>
+		<li><button class="tablinks" role="tab" onclick="openTab(event, 'sources')">Sources</button></li>
+	</ul>
+</nav>
+
+
+<!-- ADD IN-LINE ELEMENTS &nbsp; if don't want line break--> 
+
+<section id="what" class="tabcontent" aria-labelledby="whatHeader">
+	<h2 id="whatHeader">What is <span class="title">Nod</span>?</h2>
+	<p> 
+		<span class="title">Nod</span> helps online instructors become more aware of their nonverbal communication. It applies text and visual analytics to course websites,<sup id="linkToWhatNote"><a href="#whatNote">[1]</a></sup> capturing instructors' concrete nonverbal cues.
+	</p>
+	<p>
+		No one pattern of nonverbal cues is "best" in all contexts, for all students (e.g. depending on cultural backgrounds, neurotypes, etc). Therefore, <span class="title">Nod</span> is descriptive, not prescriptive. <span class="title">Nod</span> is about guided reflection as much as analytics: its goal is to support metacognition and informed design choices. You are invited to use this data to intentionally craft your nonverbal communication, as you see fit.
+	</p>
+	<p>
+		<span class="title">Nod</span> does not have the same nonverbal fluency as humans, so its analytics should be interpreted critically. You might ask yourself: What is misrepresented? What subtleties are lost? What measures are not captured by <span class="title">Nod</span>?
+	</p>
+	<p>
+		Ultimately, it is up to <em>you</em> to intuit your course's nonverbal tone and whether that is desirable in your setting.
+	</p>
+	<footer id="whatNote" class="footnote">
+		<p>
+			<sup><a href="#linkToWhatNote">[1]</a></sup>
+			<span class="title">Nod</span> works well with independent sites like this <a href="https://bookdown.org/chen/la-manual/">example course site</a>. <span class="title">Nod</span> could also analyze pages housed in an LMS, not including discussion forums or assignment feedback (for now; see "future" section).
+		</p>
+	</footer>
+</section>
+
+<section id="why" class="tabcontent" aria-labelledby="whyHeader">
+	<h2 id="whyHeader">Why is <span class="title">Nod</span> useful?</h2>
+	<p>
+		Learners don't just encode learning content but also the context in which it is learned. Nonverbal cues are part of that context. They reveal the attitudes and emotions behind our messages, shaping the social-emotional experience of learning <span class="citation">(<cite>Al Tawil, 2019</cite>)</span>.
+	</p>
+	<p>
+		In online environments, nonverbal communication may affect <dfn>social presence</dfn>, in particular <span class="citation">(<cite>Tu & McIsaac, 2002</cite>; <cite>Dixson et al, 2017</cite>; <cite>Al Tawil, 2019</cite>)</span>. Social presence is "the degree to which a person is perceived as ‘real’ in computer-mediated communication” <span class="citation">(<cite>Gunawardena & Zittle, 1997</cite>, p. 9)</span>. When learners experience high levels of instructor social presence in an online course, they perceive the instructor as available and interested in interpersonal relationships <span class="citation">(<cite>Dikkers, 2017</cite>)</span>. A notable aspect of social presence is <dfn>immediacy</dfn>, or a feeling of closeness <span class="citation">(<cite>Mehrabian, 1971</cite>; <cite>Tu & McIsaac, 2002</cite>)</span>. Social presence, including immediacy, has been associated with more positive affect toward the instructor, course, and subject and greater learner engagement and motivation <span class="citation">(<cite>Gunawardena, 1995</cite>; <cite>Witt et al, 2004</cite>)</span>.
+	</p>
+	<p>
+		Therefore, by pointing out your nonverbal cues, <span class="title">Nod</span> offers clues about your social presence (or lack there of). Based on your course site, how might learners perceive your effort to cultivate a relationship with them; your effort to help them succeed? <span class="title">Nod</span>'s analytics may support or refute different answers.
+	</p>
+	<p>
+		These analytics draw especially from <cite>Dixson et al (2017)</cite> and <cite>Al Tawil (2019)</cite>. These papers outline new, exploratory frameworks for nonverbal communication in online learning — frameworks that have also been correlated with social presence. These frameworks include the physical body language and paralanguage that can be conveyed through multimedia. But they also describe other ways to convey nonverbal intent digitally. Some of these, such as personal images and emoticons, may be overlooked and underutilized despite their significant effects <span class="citation">(<cite>Dixson et al, 2017</cite>)</span>. <span class="title">Nod</span> builds upon these frameworks - translating and reorganizing their measures and specifying additional, related ones. Currently, <span class="title">Nod</span> favors text-based cues, but future developments will expand its capacity for detailed analysis of multimedia and temporal cues, too (see "future" section).
+	</p>
+	<p>
+		Because <span class="title">Nod</span> is theory-driven, it could be useful for both practice and research. <span class="title">Nod</span>'s analytics could be paired with data on learners' affective, cognitive, and behavioral learning to gain deeper understanding of the effects of nonverbal communication. Researchers might identify different analytic patterns and study their effects on different learners and/or across different contexts. Moreover, they could study the relative significance of each of <span class="title">Nod</span>'s categories and cues for different learners and contexts.
+	</p>
+</section>
+
+<section id="when" class=tabcontent aria-labelledby="whenHeader">
+	<h2 id="whenHeader">When should I use <span class="title">Nod</span>?</h2>
+	<p>
+		<span class="title">Nod</span> is easiest to set up when your course site has been created in full — whether your course is pre-planned or already delivered. It may be challenging to automatize updates to <span class="title">Nod</span> as new pages are created on your course site. Still, <span class="title">Nod</span> is meant to be actionable. You are encouraged to use <span class="title">Nod</span>'s insights to revise your course site or your approach to designing other course sites. 
+	</p>
+</section>
+
+
+<section id="how" class=tabcontent aria-labelledby="howHeader">
+	<h2 id="howHeader">How does <span class="title">Nod</span> work?</h2>
+	<p>
+		<span class="title">Nod</span> treats your website's html code as textual data, which can be analyzed and visualized. Here is a simplified explanation of the workflow:
+	</p>
+	<p>
+		Your learning analytics team will set up a database to house data about your course website.<sup id="linktoHowNote"><a href="#howNote">[1]</a></sup> For each page on your site, a url will be added to a new row in this database. A process called web scraping will be used to fetch the html code from that url. 
+	</p>
+	<p>
+		The html code will be parsed to identify and store the following: the alt text and captions for images and videos, image pixel dimensions, and the video durations. The page url will also be passed to <a href="https://www.webaccessibility.com/">Web Accessibility by Level Access</a> and the compliance score will be collected.
+	</p>
+	<p>
+		In addition, the text on each page will be extracted from the html code and saved to a text file. Each file will be passed to two text analysis tools: <dfn><a href="http://www.cohmetrix.com/">CohMetrix</a></dfn> and <dfn><a href="https://liwc.wpengine.com/">Linguistic Inquiry & Word Count (LIWC)</a></dfn>. 
+	</p>
+	<p>
+		CohMetrix calculates 108 different indices on a text. The following ones will be added to your database: average paragraph length and syntactic simplicity.
+	</p>
+	<p>
+		LIWC consists of a series of dictionaries, each corresponding to a different category. It categorizes each word in a text by searching for it in each dictionary and noting which one(s) it appears in. This is used to calculate 1. the percentage of the text that falls into each category and 2. the text's score on four summary variables <span class="citation">(<cite>Pennebaker et al, 2015</cite>)</span>. 
+	</p>
+	<div>	
+		<p>
+			The following LIWC analytics will be added to your database: 
+		</p>
+		<ul>
+			<li>The percentage of words on your page that fall into the body, affective processes, and informal language categories. These categories have been customized for <span class="title">Nod</span> to include the following additions: select emojis added to the body and affective processes categories (note: emoticons are already included); nonverbal vocalizations & capitalizations added to the informal language category.</li>
+			<li>The scores on the emotional tone and authenticity variables</li>
+		</ul>
+	</div>
+	<div>
+		<p>
+			LIWC dictionaries will also be used independently to create and store the following lists:
+		</p>
+		<ul>
+			<li>
+				The specific words/ideograms in your text that fall into the customized body, affective processes, and informal language categories, along with the number of times they appear in your text. (For each page, there will be an array of words/ideograms and their frequency. All arrays will be looped through to identify words/ideograms with the highest total frequency across all pages.)
+			</li>
+			<li>
+				The captions and alt text on your website that contain words from the first-person pronouns, social processes, and personal concerns categories. Each page has a list of captions and alt text for images that appear on it. Each word in each caption or al text will be compared to the first-person pronouns, social processes, and personal concerns dictionaries. If a match is found between one word in the caption / alt text and one of those dictionaries, the whole caption or alt text will be added to a "personal image" list. Additionally, the captions/alt text for all GIFs (identified by src pointing to .gif file) are added to this list. 
+			</li>
+		</ul>
+	</div>
+	<p>
+		Finally, to create <span class="title">Nod</span>'s visualizations, the database will be uploaded to <a href="https://public.tableau.com/en-us/s/">Tableau</a>, a visual analytics platform. Should you update your database, Tableau can automatically update your visualizations as well.
+	</p>
+	<footer id="howNote" class="footnote">
+		<p>
+			<sup><a href="#linktoHowNote">[1]</a></sup>
+			<a href="https://openrefine.org/">OpenRefine</a> is a good database application choice. Speak with your learning analytics team to learn about its procedures for ethical data storage.
+		</p>
+	</footer>
+</section>
+
+
+<section id="future" class=tabcontent aria-labelledby="futureHeader">
+	<h2 id="futureHeader">Future developments</h2>
+	<ul>
+		<li>
+			More detailed analysis of multimedia: <span class="title">Nod</span> will detect bodies & affect in visuals and voice. This will require additional ethical considerations around machine learning and data privacy. 
+		</li>
+		<li>
+			More data sources: <span class="title">Nod</span> will analyze instructors’ interactions with students, including over email or private messaging, in discussion forums, and when giving feedback on assignments. Interactions could be compared by type and/or learner. Email could be scraped, and <span class="title">Nod</span> could integrate within an LMS.
+		</li>
+		<li>
+			Additional categories of nonverbal cues, derived from <cite>Dixson et al (2017)</cite> and <cite>Al Tawil (2019)</cite>:
+			<ul class="sublist">
+				<li>aesthetics: colors, typographic design, layout (analyze CSS)</li>
+				<li>chronemics: response / feedback latency, length, and frequency</li>
+			</ul>
+		</li>
+		<li>
+			Technical improvements: increased accessibility of <span class="title">Nod</span> itself and adaptive formatting for visuals with larger data set sizes
+		</li>
+		<li>
+			A super <span class="title">Nod</span> that aggregates / compares data from multiple courses 
+		</li>
+		<li>
+			Potentially, the addition of meaningful benchmarks and summary scales. These would consider subject and setting and be created through research on large samples of courses. Any additions must pass ethical scrutiny, especially regarding biases that might be amplified. <span class="title">Nod</span> will continue to emphasize human interpretation and context dependency. 
+		</li>
+	</ul>
+</section>
+
+
+<section id="sources" class=tabcontent aria-labelledby="sourcesHeader">
+	<h2 id="sourcesHeader">Sources</h2>
+	<ol>
+		<li>
+			Al Tawil, R. (2019). Nonverbal Communication in Text-Based, Asynchronous Online Education. The International Review of Research in Open and Distributed Learning, 20(1).
+		</li>
+		<li>
+			Dikkers, A. G., Whiteside, A. L., & Tap, B. (2017). Social presence: Understanding connections among definitions, theory, measurements, and practice. In A. L. Whiteside, A. G. Dikkers, & K., & Swan (Eds.), Social presence in online learning : Multiple perspectiveson practice and research (pp. 11-25). Stylus Publishing. 
+		</li>
+		<li>
+			Dixson, M. D., Greenwell, M. R., Rogers-Stacy, C., Weister, T., & Lauer, S. (2017). Nonverbal immediacy behaviors and online student engagement: bringing past instructional research into the present virtual classroom. Communication Education, 66(1), 37-53.
+		</li>
+		<li>
+			Gunawardena, C. N. (1995). Social presence theory and implications for interaction and collaborative learning in computer conferences. International journal of educational telecommunications, 1(2), 147-166.
+		</li>
+		<li>
+			Gunawardena, C. N., & Zittle, F. J. (1997). Social presence as a predictor of satisfaction within a computer‐mediated conferencing environment. American Journal of Distance Education, 11(3), 8-26.
+		</li>
+		<li>
+			Mehrabian, A. (1971). Silent messages (Vol. 8, No. 152, p. 30). Belmont, CA: Wadsworth.
+		</li>
+		<li>
+			Pennebaker, J.W., Boyd, R.L., Jordan, K., & Blackburn, K. (2015). The development and psychometric properties of LIWC2015. Austin, TX: University of Texas at Austin. DOI: 10.15781/T29G6Z
+		</li>
+		<li>
+			Tu, C. H., & McIsaac, M. (2002). The relationship of social presence and interaction in online classes. The American Journal of Distance Education, 16(3), 131-150.
+		</li>
+		<li>
+			Witt, P. L., Wheeless, L. R., & Allen, M. (2004). A meta‐analytical review of the relationship between teacher immediacy and student learning. Communication Monographs, 71(2), 184-207.
+		</li>
+	</ol>
+</section>
+
+<footer id="pagefooter">
+	<p id="attribution">Created by Hettie Stern - Updated May 2021</p>
+	<p id="topButton"><a href="#top">Back to top</a></p>
+</footer>
+
+<script src="scripts/tabsAccordion.js"></script>
+
+</body>
+
+</html>

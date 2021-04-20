@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+ 	<title>NOD-Accessibility</title>
+ 	<link rel="stylesheet" href="styles/category.css">
+</head>
+
+<body>
+	
+<header id="top">
+	<img src="images/NOD_logo_smallest.png" alt="Nod logo: the text Nod with a double curved arrow mimicking the motion of a head nod" width=94 height=56>
+	<nav id="mainMenu" aria-label="main menu">
+		<ul>
+			<li><a href="index.html" class="otherPages">About</a></li>
+			<li><a href="bodyaffect.html" class="otherPages">Body & Affect</a></li>
+			<li><span id="currentPage"><span class="visuallyHidden">Current Page:</span>Accessibility</span></li>
+			<li><a href="personal.html" class="otherPages">Personal</a></li>
+		</ul>
+	</nav>	
+</header>
+
+<h1>Accessibility</h1>
+
+<section id="intro" aria-label="Introduction">
+	<p>
+		Who does your course cater to? Who feels welcome and prepared to participate? The following nonverbal cues might <em>qualify</em> your social presence by insinuating which learner relationships you are most invested in. This could affect learners' sense of belonging and self-efficacy in your course — and in-turn, their motivation and engagement.
+	</p>
+</section>
+
+<nav id="categoryMenu" aria-label="accessibility cues menu">
+	<ul role="tablist">
+		<li><button class="tablinks" role="tab" onclick="openTab(event, 'webStandards')" id="defaultOpen">Web Standards</button></li>
+		<li><button class="tablinks" role="tab" onclick="openTab(event, 'modalities')">Modalities</button></li>
+		<li><button class="tablinks" role="tab" onclick="openTab(event, 'textEasability')">Text Easability</button></li>
+	</ul>
+</nav>
+
+
+<section id="webStandards" class="tabcontent shorterVisual" aria-label="Web Standards">
+
+	<p class="reflection">
+		Web accessibility standards take into account differences in learners' bodies & minds. Meeting these standards invites more bodies & minds to engage with your course. Failing to meet the standards sends a nonverbal message to those who are denied access.
+	</p>
+
+	<button class="accordion">Visual explained</button>
+	<div class="panel">
+	  <p>
+	  	This chart shows how well each page meets the <b>Web Content Accessibility Guidelines (WCAG) 2.1 standards</b>, according to <a href="https://www.webaccessibility.com/">Web Accessibility by Level Access</a>. Each page is scored from 0 (no compliance with standards) to 100 (full compliance with standards).
+	  </p>
+	  <p> 
+	  	Coming soon: detailed results, including specific violations, will be displayed or linked to make these analytics more actionable.
+	  </p>
+	</div>
+
+
+	<!-- embed code from Tableau-->
+
+	<div class='tableauPlaceholder' id='viz1618787666104' style='position: relative'>
+		<noscript>
+			<img alt='Web standards compliance scores' src=
+			'https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ac&#47;Accessibility_16063529736840&#47;Sheet2&#47;1_rss.png'
+			style='border: none'>
+		</noscript>
+		<object class='tableauViz' style='display:none;'>
+			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'>
+			<param name='embed_code_version' value='3'>
+			<param name='site_root' value=''>
+			<param name='name' value='Accessibility_16063529736840&#47;Sheet2'>
+			<param name='tabs' value='no'>
+			<param name='toolbar' value='no'>
+			<param name='static_image' value=
+			'https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ac&#47;Accessibility_16063529736840&#47;Sheet2&#47;1.png'>
+			 <param name='animate_transition' value='yes'>
+			<param name='display_static_image' value='yes'>
+			<param name='display_spinner' value='yes'>
+			<param name='display_overlay' value='yes'>
+			<param name='display_count' value='yes'>
+			<param name='language' value='en'>
+		</object>
+	</div>
+	<script type='text/javascript'>
+	    var divElement = document.getElementById('viz1618787666104');
+		var vizElement = divElement.getElementsByTagName('object')[0];
+		vizElement.style.width='94%';vizElement.style.height=(divElement.offsetWidth*0.1)+'px';
+		var scriptElement = document.createElement('script');
+		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+		vizElement.parentNode.insertBefore(scriptElement, vizElement);
+	</script>
+
+</section>
+
+
+
+<section id="modalities" class="tabcontent" aria-label="Modalities">
+
+<p class="reflection">
+		Different modalities afford different types of nonverbal cues. They may also make information more or less accessible to learners depending on cognitive and technological processing speeds. What nonverbal cues are available and/or transmitted by the modalities you choose? What pathways do learners have to understanding and the experience of social presence?
+	</p>
+
+	<button class="accordion">Visual explained</button>
+	<div class="panel">
+	  <p>
+	  	This bubble chart compares the relative use of different modalities in your course, overall. A larger circle means more information is presented in that modality. 
+	  </p>
+	  <p> 
+	  	The following conversions were used to create this distribution: 1 minute of video = 125 words = 531,915 square pixels. Future research may adjust these numbers according to course subject and context.
+	  </p>
+	</div>
+
+
+<!-- embed code from Tableau -->
+
+	<div class='tableauPlaceholder' id='viz1618445539632' style='position: relative'>
+		<noscript>
+			<img alt='How information is communicated ' src=
+			'https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ac&#47;Accessibility2_16064123582380&#47;Sheet1&#47;1_rss.png'
+			style='border: none'>
+		</noscript>
+		<object class='tableauViz' style='display:none;'>
+			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'>
+			 <param name='embed_code_version' value='3'>
+			 <param name='site_root' value=''>
+			<param name='name' value='Accessibility2_16064123582380&#47;Sheet1'>
+			<param name='tabs' value='no'>
+			<param name='toolbar' value='yes'>
+			<param name='static_image' value=
+			'https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ac&#47;Accessibility2_16064123582380&#47;Sheet1&#47;1.png'>
+			 <param name='animate_transition' value='yes'>
+			<param name='display_static_image' value='yes'>
+			<param name='display_spinner' value='yes'>
+			<param name='display_overlay' value='yes'>
+			<param name='display_count' value='yes'>
+			<param name='language' value='en'>
+		</object>
+	</div>
+	<script type='text/javascript'>
+	    var divElement = document.getElementById('viz1618445539632');
+		var vizElement = divElement.getElementsByTagName('object')[0];
+		vizElement.style.width='95%';vizElement.style.height=(divElement.offsetWidth*.5)+'px';
+		var scriptElement = document.createElement('script');
+		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+		vizElement.parentNode.insertBefore(scriptElement, vizElement);
+	</script>
+
+</section>
+
+
+
+<section id="textEasability" class="tabcontent" aria-label="Text Easability">
+
+	<p class="reflection">
+		Can your course site be read with ease? Text easability could have similar effects as the speed and volume of speech. It may signal your expectations for learners' effort, executive function skills, or prior knowledge. Or it might signal how much care you've given to make information intelligible or digestible for certain learners. This may shape learners' emotional experience of reading your text. For example, if learners can't meet your implicit expectations or feel you don't care about supporting them, they may become frustrated with you, the course, or themselves.
+	</p>
+
+	<button class="accordion">Visual explained</button>
+	<div class="panel">
+		<p>
+	  		This scatterplot shows each page's average paragraph length as a function of syntactic simplicity. Average paragraph length may indicate how much text is formatted / broken up vs blocked. Text with greater syntactic simplicity uses fewer words and simpler, more familiar syntax structures.<sup id="linkToEasabilityNote"><a href="#easabilityNote">[1]</a></sup>	
+		</p>
+		<p>
+			A page with long paragraphs and low syntactic simplicity may have dense blocks of text that are more cognitively demanding.
+		</p>
+		<footer class="footnote" id="easabilityNote">
+			<p>
+				<sup><a href="#linkToEasabilityNote">[1]</a></sup>
+				See <a href="http://cohmetrix.memphis.edu/cohmetrixhome/documentation_indices.html">CohMetrix documentation</a>, sections III.1 & III.2
+			</p>
+		</footer>
+	</div>
+
+
+	<!-- embed code from Tableau --> 
+
+	<div class='tableauPlaceholder' id='viz1618786522759' style='position: relative'>
+		<noscript>
+			<img alt='Paragraph length x Syntactic simplicity ' src=
+			'https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ac&#47;Accessibility_16063529736840&#47;Sheet6&#47;1_rss.png'
+		style='border: none'>
+		</noscript> 
+		<object class='tableauViz' style='display:none;'>
+			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'>
+			 <param name='embed_code_version' value='3'>
+			 <param name='site_root' value=''>
+			 <param name='name' value='Accessibility_16063529736840&#47;Sheet6'>
+			 <param name='tabs' value='no'>
+			 <param name='toolbar' value='no'>
+			 <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ac&#47;Accessibility_16063529736840&#47;Sheet6&#47;1.png'>
+			 <param name='animate_transition' value='yes'>
+			 <param name='display_static_image' value='yes'>
+			 <param name='display_spinner' value='yes'>
+			 <param name='display_overlay' value='yes'>
+			 <param name='display_count' value='yes'>
+			 <param name='language' value='en'>
+		</object>
+	</div>
+	<script type='text/javascript'>
+	    var divElement = document.getElementById('viz1618786522759');                    
+		var vizElement = divElement.getElementsByTagName('object')[0];                    
+		vizElement.style.width='95%';vizElement.style.height=(divElement.offsetWidth*0.57)+'px';                    
+		var scriptElement = document.createElement('script');                    
+		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+		vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+	</script>
+
+</section>
+
+
+
+<footer id="pagefooter">
+	<p id="attribution">Created by Hettie Stern - Updated May 2021</p>
+	<p id="topButton"><a href="#top">Back to top</a></p>
+</footer>
+
+
+<script src="scripts/tabsAccordion.js"></script>
+
+</body>
+
+</html>

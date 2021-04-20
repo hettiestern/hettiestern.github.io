@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+ 	<title>NOD-BodyAffect</title>
+ 	<link rel="stylesheet" href="styles/category.css">
+</head>
+
+<body>
+<header id="top">
+	<img src="images/NOD_logo_smallest.png" alt="Nod logo: the text Nod with a double curved arrow mimicking the motion of a head nod" width=94 height=56>
+	<nav id="mainMenu" aria-label="main menu">
+		<ul>
+			<li><a href="index.html" class="otherPages">About</a></li>
+			<li><span id="currentPage"><span class="visuallyHidden">Current Page:</span>Body & Affect</span></li>
+			<li><a href="accessibility.html" class="otherPages">Accessibility</a></li>
+			<li><a href="personal.html" class="otherPages">Personal</a></li>
+		</ul>
+	</nav>	
+</header>
+
+<h1>Body & Affect</h1>
+
+<section id="intro" aria-label="Introduction">
+	<p>
+		How do you represent and express your body and affect virtually? When do you recognize the bodies and affect of online learners? These analytics explore how the body and affect are brought online, specifically through text that affords or reflects nonverbal cues. 
+	</p>
+	<p>
+		Text could mimic body language and/or paralanguage that fosters immediacy. For example, a <i>thumbs-up emoji</i> might function like a nod, expressing acknowledgment and approval.
+	</p>
+	<p>
+		Your text might also reveal the value you've given (or not) to bodily perception and emotion as part of knowledge building. For example, the use of words like "feel," "look," and "listen" creates space for different sensations of sense-making. Moreover, they could indicate the presence of physical nonverbal cues, such as paralanguage in what learners <em>listen to</em>.
+	</p>
+</section>
+
+<nav id="categoryMenu" aria-label="body and affect cues menu">
+	<ul role="tablist">
+		<li><button class="tablinks" role="tab" onclick="openTab(event, 'instances')" id="defaultOpen">Instances</button></li>
+		<li><button class="tablinks" role="tab" onclick="openTab(event, 'prevalence')">Prevalence</button></li>
+		<li><button class="tablinks" role="tab" onclick="openTab(event, 'expressiveness')">Expressiveness</button></li>
+	</ul>
+</nav>
+
+
+<section id="instances" class="tabcontent" aria-label="Instances">
+	<p class="reflection">
+		How does your vocabulary reflect the body and affect?
+	</p>
+	<button class="accordion">Visual explained</button>
+	<div class="panel">
+	  <p>
+	  	This word cloud displays the most common body and affect words and ideograms used on your course site. The larger the word or ideogram, the more frequently it is used on your site.
+	  </p>
+	  <div> 
+	  	<p>Customized LIWC dictionaries are used to identify words and ideograms that either or both:</p>
+		  <ul>
+		  	<li>
+		  		reference the <b>body</b>, including perceptual processes (LIWC's body category). Examples: "head", "listen", <i>thumbs-up emoji</i>
+		  	</li>
+		  	<li>
+		  		describe or convey <b>affect</b> (LIWC's affective processes and informal language categories). Examples: nonverbal vocalizations & capitalizations like "<i>sooo</i>" and "<i>GREAT</i>"; netspeak like "<i>lol</i>"; <i>heart emoji</i> or <i>&#60;3</i>
+		  	</li>
+		  </ul>
+		</div>
+	</div>
+
+
+	<!-- embed code from Tableau --> 
+
+	<div class='tableauPlaceholder' id='viz1618788482415' style='position: relative'>
+			<noscript><img alt=
+			'Body &amp; affect words&#47;ideograms ' src=
+			'https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;Wordcloud_16076253095960&#47;Sheet1&#47;1_rss.png'
+			style='border: none'>
+		</noscript>
+		<object class='tableauViz' style='display:none;'>
+			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'>
+			 <param name='embed_code_version' value='3'>
+			 <param name='site_root' value=''>
+			<param name='name' value='Wordcloud_16076253095960&#47;Sheet1'>
+			<param name='tabs' value='no'>
+			<param name='toolbar' value='yes'>
+			<param name='static_image' value=
+			'https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;Wordcloud_16076253095960&#47;Sheet1&#47;1.png'>
+			 <param name='animate_transition' value='yes'>
+			<param name='display_static_image' value='yes'>
+			<param name='display_spinner' value='yes'>
+			<param name='display_overlay' value='yes'>
+			<param name='display_count' value='yes'>
+			<param name='language' value='en'>
+			<param name='filter' value='publish=yes'>
+			<param name='origin' value='viz_share_link'>
+		</object>
+	</div>
+	<script type='text/javascript'>
+	    var divElement = document.getElementById('viz1618788482415');
+		var vizElement = divElement.getElementsByTagName('object')[0];
+		vizElement.style.width='95%';vizElement.style.height=(divElement.offsetWidth*0.4)+'px';
+		var scriptElement = document.createElement('script');
+		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+		vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+	</script>
+
+</section>
+
+
+
+<section id="prevalence" class="tabcontent" aria-label="Prevalence">
+	<p class="reflection">
+		Is the body and/or affect more present for certain lessons? Does their presence change over time, as the course progresses? Does it change through space, as learners navigate the course site?
+	</p>
+	<button class="accordion">Visual explained</button>
+	<div class="panel">
+	  <p>
+	  	These charts show, out of all the text on a webpage, the percentage of words / ideograms that fall into each category. These percentages are calculated by a customized LIWC: text referencing the body is the <span class="measureName">body</span> category, and text conveying affect is the <span class="measureName">affective processes</span> plus <span class="measureName">informal language</span> categories.
+	  </p>
+	</div>
+
+	<!--embed code from Tableau -->
+	<!-- visual 1 -->
+	<div class='tableauPlaceholder' id='viz1618864493715' style='position: relative'>
+		<noscript>
+			<img alt='Average % of text' src=
+			'https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;Finalproject_16063264581250&#47;Sheet5&#47;1_rss.png'
+			style='border: none'>
+		</noscript>
+		<object class='tableauViz' style='display:none;'>
+			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'>
+			 <param name='embed_code_version' value='3'>
+			 <param name='site_root' value=''>
+			<param name='name' value='Finalproject_16063264581250&#47;Sheet5'>
+			<param name='tabs' value='no'>
+			<param name='toolbar' value='no'>
+			<param name='static_image' value=
+			'https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;Finalproject_16063264581250&#47;Sheet5&#47;1.png'>
+			 <param name='animate_transition' value='yes'>
+			<param name='display_static_image' value='yes'>
+			<param name='display_spinner' value='yes'>
+			<param name='display_overlay' value='yes'>
+			<param name='display_count' value='yes'>
+			<param name='language' value='en'>
+		</object>
+	</div>
+	<script type='text/javascript'>
+	    var divElement = document.getElementById('viz1618864493715');
+		var vizElement = divElement.getElementsByTagName('object')[0];
+		vizElement.style.width='80%';vizElement.style.height=(divElement.offsetWidth*0.2)+'px';
+		var scriptElement = document.createElement('script');
+		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+		vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+	</script>
+
+	
+	<!-- visual 2 -->
+	<div class='tableauPlaceholder' id='viz1618864191124' style='position: relative'>
+		<noscript>
+			<img alt='Percentage of text referencing the body' src=
+			'https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;Finalproject_16063264581250&#47;Sheet1&#47;1_rss.png'
+			style='border: none'>
+		</noscript>
+		<object class='tableauViz' style='display:none;'>
+			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'>
+			 <param name='embed_code_version' value='3'>
+			 <param name='site_root' value=''>
+			<param name='name' value='Finalproject_16063264581250&#47;Sheet1'>
+			<param name='tabs' value='no'>
+			<param name='toolbar' value='no'>
+			<param name='static_image' value=
+			'https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;Finalproject_16063264581250&#47;Sheet1&#47;1.png'>
+			 <param name='animate_transition' value='yes'>
+			<param name='display_static_image' value='yes'>
+			<param name='display_spinner' value='yes'>
+			<param name='display_overlay' value='yes'>
+			<param name='display_count' value='yes'>
+			<param name='language' value='en'>
+		</object>
+	</div>
+	<script type='text/javascript'>
+	    var divElement = document.getElementById('viz1618864191124');
+		var vizElement = divElement.getElementsByTagName('object')[0];
+		vizElement.style.width='80%';vizElement.style.height=(divElement.offsetWidth*0.25)+'px';
+		var scriptElement = document.createElement('script');
+		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+		vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+	</script>
+
+
+	<!-- visual 3 -->
+	<div class='tableauPlaceholder' id='viz1618864392140' style='position: relative'>
+		<noscript>
+			<img alt='Percentage of text conveying affect' src=
+			'https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;Finalproject_16063264581250&#47;Sheet2&#47;1_rss.png'
+			style='border: none'>
+		</noscript>
+		<object class='tableauViz' style='display:none;'>
+			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'>
+			 <param name='embed_code_version' value='3'>
+			 <param name='site_root' value=''>
+			<param name='name' value='Finalproject_16063264581250&#47;Sheet2'>
+			<param name='tabs' value='no'>
+			<param name='toolbar' value='no'>
+			<param name='static_image' value=
+			'https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;Finalproject_16063264581250&#47;Sheet2&#47;1.png'>
+			 <param name='animate_transition' value='yes'>
+			<param name='display_static_image' value='yes'>
+			<param name='display_spinner' value='yes'>
+			<param name='display_overlay' value='yes'>
+			<param name='display_count' value='yes'>
+			<param name='language' value='en'>
+		</object>
+	</div>
+	<script type='text/javascript'>
+	    var divElement = document.getElementById('viz1618864392140');
+		var vizElement = divElement.getElementsByTagName('object')[0];
+		vizElement.style.width='80%';vizElement.style.height=(divElement.offsetWidth*0.25)+'px';
+		var scriptElement = document.createElement('script');
+		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+		vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+	</script>
+	
+</section>
+
+
+
+<section id="expressiveness" class="tabcontent shorterVisual" aria-label="Expressiveness">
+
+	<p class="reflection">
+		How emotionally expressive is the text throughout your course site?
+	</p>
+
+	<button class="accordion">Visual explained</button>
+	<div class="panel">
+		<p>
+	  		Each page on your course site receives an expressiveness score on a scale of 0 (emotionally neutral) to 50 (highly emotionally expressive). This box plot<sup id="linkToBoxPlotNote"><a href="#boxPlotNote">[1]</a></sup> shows the distribution of those scores.	
+		</p>
+		<p>
+			This measure is a transformation of the LIWC <span class="measureName">emotional tone</span> variable<sup id="linkToToneNote"><a href="#toneNote">[2]</a></sup>, which ranges from 0 (maximally negative tone) to 100 (maximally positive tone). The expressiveness measure is the absolute value of the LIWC <span class="measureName">emotional tone</span> minus 50.
+		</p>
+		<p>
+			Coming soon: analysis of patterns in punctuation usage.
+		</p>
+
+		<footer class="footnote">
+			<p>
+				<sup id="boxPlotNote"><a href="#linkToBoxPlotNote">[1]</a></sup>
+				<a href="http://cohmetrix.memphis.edu/cohmetrixhome/documentation_indices.html">More on box plots</a>
+			</p>
+			<p>
+				<sup id="toneNote"><a href="#linkToToneNote">[2]</a></sup>
+				<a href="https://liwc.wpengine.com/interpreting-liwc-output/">More on <span class="measureName">emotional tone</span> variable</a>
+			</p>
+		</footer>
+	</div>
+
+
+	<!-- embed code from Tableau --> 
+
+	<div class='tableauPlaceholder' id='viz1618789011727' style='position: relative'>
+		<noscript>
+			<img alt='Expressiveness of text' src=
+			'https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;C6&#47;C6Y6XK7T6&#47;1_rss.png'
+			style='border: none'>
+		</noscript>
+		<object class='tableauViz' style='display:none;'>
+			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'>
+			 <param name='embed_code_version' value='3'>
+			 <param name='path' value='shared&#47;C6Y6XK7T6'>
+			 <param name='toolbar' value='no'>
+			<param name='static_image' value=
+			'https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;C6&#47;C6Y6XK7T6&#47;1.png'>
+			 <param name='animate_transition' value='yes'>
+			<param name='display_static_image' value='yes'>
+			<param name='display_spinner' value='yes'>
+			<param name='display_overlay' value='yes'>
+			<param name='display_count' value='yes'>
+			<param name='origin' value='viz_share_link'>
+		</object>
+	</div>
+	<script type='text/javascript'>
+	    var divElement = document.getElementById('viz1618789011727');
+		var vizElement = divElement.getElementsByTagName('object')[0];
+		vizElement.style.width='95%';vizElement.style.height=(divElement.offsetWidth*0.2)+'px';
+		var scriptElement = document.createElement('script');
+		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+		vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+	</script>
+</section>
+
+
+<footer id="pagefooter">
+	<p id="attribution">Created by Hettie Stern - Updated May 2021</p>
+	<p id="topButton"><a href="#top">Back to top</a></p>
+</footer>
+
+
+<script src="scripts/tabsAccordion.js"></script>
+
+</body>
+
+</html>

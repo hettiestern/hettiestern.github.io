@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+ 	<title>NOD-Personal</title>
+ 	<link rel="stylesheet" href="styles/category.css">
+</head>
+
+<body>
+<header id="top">
+	<img src="images/NOD_logo_smallest.png" alt="Nod logo: the text Nod with a double curved arrow mimicking the motion of a head nod" width=94 height=56>
+	<nav id="mainMenu" aria-label="main menu">
+		<ul>
+			<li><a href="index.html" class="otherPages">About</a></li>
+			<li><a href="bodyaffect.html" class="otherPages">Body & Affect</a></li>
+			<li><a href="accessibility.html" class="otherPages">Accessibility</a></li>
+			<li><span id="currentPage"><span class="visuallyHidden">Current Page:</span>Personal</span></li>
+		</ul>
+	</nav>	
+</header>
+
+<h1>Personal</h1>
+
+<section id="intro" aria-label="Introduction">
+	<p>
+		How would learners characterize you? How much psychological distance is between you and learners? The following nonverbal cues may contribute to immediacy and how learners relate to you. 
+	</p>
+</section>
+
+
+<nav id="categoryMenu" aria-label="personal cues menu">
+	<ul role="tablist" style="justify-content: flex-start;">
+		<li><button class="tablinks specialSpacing" role="tab" onclick="openTab(event, 'images')" id="defaultOpen">Images</button></li>
+		<li><button class="tablinks" role="tab" onclick="openTab(event, 'textAuthenticity')">Text Authenticity</button></li>
+	</ul>
+</nav>
+
+
+<section id="images" class="tabcontent shorterVisual" aria-label="Images">
+	<div class="reflection">
+		<p>
+			Sharing personal images is a form of nonverbal self-disclosure. This choice may help communicate your personhood and trust in learners. Of course, whether and when this is appropriate in <em>your context</em> is up for you to decide. 
+		</p>
+		<p>
+			Note: these images may also fit <span class="title">Nod</span>'s <b>Body & Affect</b> analytics category. GIFs, especially, tend to convey affect and may depict body language. Still, they are included here as expressions of personality. 
+		</p>
+	</div>
+
+	<button class="accordion">Visual explained</button>
+	<div class="panel">
+	  <p>
+	  	NOD categorizes all GIFs as personal. For other images, NOD guesses whether they are personal versus content-related based on their alternative text (alt text) and/or caption. NOD suspects an image is personal when the alt text / caption has at least one word from the LIWC <span class="measureName">first-person pronouns</span>, <span class="measureName">social processes</span>, or <span class="measureName">personal concerns</span> category. 
+	  </p>
+	  <p>
+	  	This method is imperfect — NOD may miss or mis-categorize some images — but it highlights the potential significance of alt text and captions. Including them not only affects NOD's ability to detect personal images but also some learners' access to your visual social presence. 
+	  </p>
+	  <p>
+	  	This table shows the alt text / captions for personal images on each page of your site. How and where are images disclosed and discovered?
+	  </p>
+	  <p>
+	  	Coming soon: NOD will look for personal video and audio as well. This may be done through captions, transcripts, and/or neighboring text.
+	  </p>
+	</div>
+
+
+	<!-- embed code from Tableau --> 
+
+	<div class='tableauPlaceholder' id='viz1618790737707' style='position: relative'>
+		<noscript>
+			<img alt=
+			'Alt text&#47;captions for personal images on each page' src=
+			'https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pe&#47;Personal_16076243601580&#47;Sheet1&#47;1_rss.png'
+			style='border: none'>
+		</noscript>
+		<object class='tableauViz' style='display:none;'>
+			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'>
+			 <param name='embed_code_version' value='3'>
+			 <param name='site_root' value=''>
+			<param name='name' value='Personal_16076243601580&#47;Sheet1'>
+			<param name='tabs' value='no'>
+			<param name='toolbar' value='yes'>
+			<param name='static_image' value=
+			'https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pe&#47;Personal_16076243601580&#47;Sheet1&#47;1.png'>
+			 <param name='animate_transition' value='yes'>
+			<param name='display_static_image' value='yes'>
+			<param name='display_spinner' value='yes'>
+			<param name='display_overlay' value='yes'>
+			<param name='display_count' value='yes'>
+			<param name='language' value='en'>
+			<param name='filter' value='publish=yes'>
+			<param name='origin' value='viz_share_link'>
+		</object>
+	</div>
+	<script type='text/javascript'>
+	    var divElement = document.getElementById('viz1618790737707');
+		var vizElement = divElement.getElementsByTagName('object')[0];
+		vizElement.style.width='93%';vizElement.style.height=(divElement.offsetWidth*0.27)+'px';
+		var scriptElement = document.createElement('script');
+		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+		vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+	</script>
+
+</section>
+
+
+
+<section id="textAuthenticity" class="tabcontent shorterVisual" aria-label="Text Authenticity">
+
+	<p class="reflection">
+		To what extent is your text's tone honest, personal, vulnerable? Do learners get the sense you are writing authentically?
+	</p>
+
+	<button class="accordion">Visual explained</button>
+	<div class="panel">
+		<p>
+	  		Each page on your course site receives an authenticity score on a scale of 0 (least authentic) to 100 (most authentic). This box plot<sup id="linkToBoxPlotNote2"><a href="#boxPlotNote2">[1]</a></sup> shows the distribution of those scores.	
+		</p>
+		<p>
+			This measure is LIWC's <span class="measureName">authenticity</span> variable<sup id="linkToAuthNote"><a href="#authNote">[2]</a></sup>, which is based on studies of honest versus deceptive communication.
+		</p>
+		<p>
+			Coming soon: analysis of patterns in punctuation usage.
+		</p>
+		
+		<footer class="footnote">
+			<p>
+				<sup id="boxPlotNote2"><a href="#linkToBoxPlotNote2">[1]</a></sup>
+				<a href="http://cohmetrix.memphis.edu/cohmetrixhome/documentation_indices.html">More on box plots</a>
+			</p>
+			<p>
+				<sup id="authNote"><a href="#linkToAuthNote">[2]</a></sup>
+				<a href="https://liwc.wpengine.com/interpreting-liwc-output/">More on <span class="measureName">emotional tone</span> variable</a>
+			</p>
+		</footer>
+	</div>
+
+
+	<!-- embed code from Tableau --> 
+
+	<div class='tableauPlaceholder' id='viz1618790723587' style='position: relative'>
+		<noscript>
+			<img alt='Authenticity of text' src=
+			'https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;Finalproject_16063264581250&#47;Sheet4&#47;1_rss.png'
+			style='border: none'>
+		</noscript>
+		<object class='tableauViz' style='display:none;'>
+			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'>
+			 <param name='embed_code_version' value='3'>
+			 <param name='site_root' value=''>
+			<param name='name' value='Finalproject_16063264581250&#47;Sheet4'>
+			<param name='tabs' value='no'>
+			<param name='toolbar' value='no'>
+			<param name='static_image' value=
+			'https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;Finalproject_16063264581250&#47;Sheet4&#47;1.png'>
+			 <param name='animate_transition' value='yes'>
+			<param name='display_static_image' value='yes'>
+			<param name='display_spinner' value='yes'>
+			<param name='display_overlay' value='yes'>
+			<param name='display_count' value='yes'>
+			<param name='language' value='en'>
+			<param name='origin' value='viz_share_link'>
+		</object>
+	</div>
+	<script type='text/javascript'>
+	    var divElement = document.getElementById('viz1618790723587');
+		var vizElement = divElement.getElementsByTagName('object')[0];
+		vizElement.style.width='95%';vizElement.style.height=(divElement.offsetWidth*0.2)+'px';
+		var scriptElement = document.createElement('script');
+		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+		vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+	</script>
+
+</section>
+
+
+
+<footer id="pagefooter">
+	<p id="attribution">Created by Hettie Stern - Updated May 2021</p>
+	<p id="topButton"><a href="#top">Back to top</a></p>
+</footer>
+
+
+<script src="scripts/tabsAccordion.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,279 @@
+@charset "UTF-8";
+
+
+
+/* tabs */
+#categoryMenu ul {
+	display: flex;
+	padding-left: 0;
+	margin-left: 15%;
+	width: 43.64rem;
+	justify-content: space-between;
+	border-bottom: .75rem solid black;
+	margin-bottom: 2%;
+}
+
+.tabcontent {
+	margin-left: 15%;
+	margin-bottom: 10%;
+}
+
+.shorterVisual {
+	margin-bottom: 18%;
+}
+
+.tablinks {
+	font-size: 1.4rem;
+	background-color: white;
+	border: .1rem solid black;
+	padding: .7rem;
+	width: 14rem;
+	margin-bottom: 0;
+}
+
+.specialSpacing {
+	/* for two tabs on personal page w/ justify-content inline style rule */
+	margin-right: .85rem;
+}
+
+.tablinks:hover {
+	background-color: #C4C4C4;
+}
+
+.tablinks.active {
+	background-color: black;
+	color: white;
+}
+
+
+.reflection, .panel {
+	width: 37em;
+	padding: 1rem;
+}
+
+.accordion {
+	margin-left: 1rem;
+	margin-top: 5vh;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	background-color: #f0efee;
+	font-size: 1.125rem;
+	padding: .3rem 1rem;
+	color: black;
+	display: flex;
+	align-items: center;
+}
+
+.accordion:before {
+  content: "+ ";
+  font-weight: bolder;
+  font-size: 1.4em;
+  color: black;
+  margin-left: -.2rem;
+  padding-right: .3em;
+  
+ }
+
+ .accordion:hover {
+ 	background-color: #C4C4C4;
+ }
+
+
+.accordion.active {
+	background-color: black;
+	color: white;
+}
+
+.accordion.active:before {
+  content: "- ";
+  color: white;
+  font-weight: bolder;
+  font-size: 1.4em;
+}
+
+.panel {
+  display: none;
+  margin-top: 0;
+  padding-top: 0;
+  
+}
+
+.footnote {
+	font-size: .9em;
+	margin-top: 2.5em;	
+}
+
+.footnote p {
+	line-height: .5;
+}
+
+.tableauPlaceholder {
+	margin-top: 6vh;
+}
+
+#instances .tableauPlaceholder {
+	margin-top: 2vh;
+}
+
+.tabcontent ul li{
+	margin-bottom: 1em;
+}
+
+.measureName {
+	font-style: italic;
+}
+
+#images .reflection p:first-child {
+	margin-top: 0;
+}
+
+
+/* rest = same as in about.css */
+
+.title {
+	text-transform: uppercase;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 1.125rem;
+	line-height: 1.6875;
+}
+
+h1 {
+	font-size: 2.5em;
+	margin-top: 5%;
+}
+
+h2 {
+	font-size: 1.5em;
+	line-height: 1;
+	margin-bottom: 1.6em;
+	margin-top: 0;
+}
+
+p {
+	margin-top: 1.4em;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+cite {
+	font-style: normal;
+}
+
+.citation {
+	font-size: .8em;
+}
+
+i {
+	font-style: normal;
+}
+
+
+/* width margins */
+h1, #intro {
+	margin-left: 15%;
+}
+
+header, #pagefooter {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/* page header */
+header {
+	display: flex;
+	margin-top: 1%;
+}
+
+header img {
+	margin-right: auto;
+	margin-top: 1%;
+}
+
+#mainMenu ul {
+	display: flex;
+}
+
+#mainMenu ul li {
+	border: solid .1rem black;
+	background-color: white;
+	width: 7.5em;
+	text-align: center;
+}
+
+#mainMenu a {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+
+#currentPage {
+	display: block;
+	background-color: black;
+	color: white;
+}
+
+.otherPages:hover {
+	background-color: #C4C4C4;
+	color: black;
+}
+
+.visuallyHidden {
+	display: none;
+}
+
+
+
+/* intro */
+#intro {
+	width: 37em;
+	margin-bottom: 5%;
+	margin-top: 4%;
+	background-color: #f0efee;
+	padding: 1rem;
+}
+
+
+
+/* page footer */
+#pagefooter {
+	clear: left;
+	display: flex;
+	align-items: baseline;
+	background-color: #f0efee;
+	padding: 0 1em;
+}
+
+
+#topButton {
+	margin-left: auto;
+	border: solid .1rem;
+	background-color: white;
+	width: 7em;
+	text-align: center;
+	/* padding: .2rem 1.5rem; */
+}
+
+#topButton a {
+	display: block;
+}
+
+#topButton a:link{
+	text-decoration: none;
+	color: black;
+}
+
+#topButton:hover {
+	background-color: #C4C4C4;
+	color: black;
+}
+
+#topButton a:visited{
+	color: black;
+}
