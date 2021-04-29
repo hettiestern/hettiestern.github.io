@@ -47,8 +47,8 @@
 	<p class="reflection">
 		How does your vocabulary reflect the body and affect?
 	</p>
-	<button class="accordion">Visual explained</button>
-	<div class="panel">
+	<button class="accordion" id="instAccord" aria-expanded="false" aria-controls="instPanel">Visual explained</button>
+	<div class="panel" id="instPanel" role="region" aria-hidden="true" aria-labelledby="instAccord">
 	  <p>
 	  	This word cloud displays the most common body and affect words and ideograms used on your course site. The larger the word or ideogram, the more frequently it is used on your site.
 	  </p>
@@ -66,7 +66,7 @@
 	</div>
 
 
-	<!-- embed code from Tableau --> 
+	<!-- embed code provided by Tableau-->
 
 	<div class='tableauPlaceholder' id='viz1618788482415' style='position: relative'>
 			<noscript><img alt=
@@ -110,14 +110,14 @@
 	<p class="reflection">
 		Is the body and/or affect more present for certain lessons? Does their presence change over time, as the course progresses? Does it change through space, as learners navigate the course site?
 	</p>
-	<button class="accordion">Visual explained</button>
-	<div class="panel">
+	<button class="accordion" id="prevAccord" aria-expanded="false" aria-controls="prevPanel">Visual explained</button>
+	<div class="panel" id="prevPanel" role="region" aria-hidden="true" aria-labelledby="prevAccord">
 	  <p>
 	  	These charts show, out of all the text on a webpage, the percentage of words / ideograms that fall into each category. These percentages are calculated by a customized LIWC: text referencing the body is the <span class="measureName">body</span> category, and text conveying affect is the <span class="measureName">affective processes</span> plus <span class="measureName">informal language</span> categories.
 	  </p>
 	</div>
 
-	<!--embed code from Tableau -->
+	<!-- embed code provided by Tableau-->
 	<!-- visual 1 -->
 	<div class='tableauPlaceholder' id='viz1618864493715' style='position: relative'>
 		<noscript>
@@ -229,8 +229,8 @@
 		How emotionally expressive is the text throughout your course site?
 	</p>
 
-	<button class="accordion">Visual explained</button>
-	<div class="panel">
+	<button class="accordion" id="expAccord" aria-expanded="false" aria-controls="expPanel">Visual explained</button>
+	<div class="panel" id="expPanel" role="region" aria-hidden="true" aria-labelledby="expAccord">
 		<p>
 	  		Each page on your course site receives an expressiveness score on a scale of 0 (emotionally neutral) to 50 (highly emotionally expressive). This box plot<sup id="linkToBoxPlotNote"><a href="#boxPlotNote">[1]</a></sup> shows the distribution of those scores.	
 		</p>
@@ -254,7 +254,7 @@
 	</div>
 
 
-	<!-- embed code from Tableau --> 
+	<!-- embed code provided by Tableau-->
 
 	<div class='tableauPlaceholder' id='viz1618789011727' style='position: relative'>
 		<noscript>
