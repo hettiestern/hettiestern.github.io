@@ -1,7 +1,7 @@
 //TABS
 //credit: w3schools.com how-to example for tabs (modified)
+//added: aria attributes
 
-//accessibility????
 
 
 function openTab(evt, tabName) {
@@ -12,17 +12,20 @@ function openTab(evt, tabName) {
 	tabcontent = document.getElementsByClassName("tabcontent");
 	for (i = 0; i < tabcontent.length; i++) {
 		 tabcontent[i].style.display = "none";
+
 	}
 
 	// Get all elements with class="tablinks" and remove the class "active"
 	tablinks = document.getElementsByClassName("tablinks");
 	for (i = 0; i < tablinks.length; i++) {
 		tablinks[i].className = tablinks[i].className.replace(" active", "");
+		tablinks[i].setAttribute("aria-selected", "false")
 	}
 
 	// Show the current tab, and add an "active" class to the link that opened the tab
 	document.getElementById(tabName).style.display = "block";
 	evt.currentTarget.className += " active";
+	evt.currentTarget.setAttribute("aria-selected", "true")
 }
 	
 // Get the element with id="defaultOpen" and click on it
@@ -33,9 +36,6 @@ document.getElementById("defaultOpen").click();
 //ACCORDION TEXT
 //credit: w3schools.com how-to example for accordion text
 //added: aria attributes
-
-
-//accessibility????
 
 
 var acc = document.getElementsByClassName("accordion");
